@@ -77,22 +77,32 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     
 >>>>>>> 3bcf52c (Fixed resume.md)
+=======
+>>>>>>> 49557fe (Fix typo)
       - name: Run markdown lint
         run: |
           npm install remark-cli remark-preset-lint-consistent vfile-reporter-json
           npx remark . --use remark-preset-lint-consistent --report vfile-reporter-json 2> remark-lint-report.json
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     
 >>>>>>> 3bcf52c (Fixed resume.md)
+=======
+
+>>>>>>> 49557fe (Fix typo)
       - uses: actions/upload-artifact@v3
         with:
           name: remark-lint-report
           path: remark-lint-report.json
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         
 >>>>>>> 3bcf52c (Fixed resume.md)
+=======
+>>>>>>> 49557fe (Fix typo)
